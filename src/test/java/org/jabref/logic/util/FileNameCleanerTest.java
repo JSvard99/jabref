@@ -33,9 +33,4 @@ class FileNameCleanerTest {
     void cleanCurlyBracesAsWell() {
         assertEquals("The Evolution of Sentiment_ Analysis_A Review of Research Topics, Venues, and Top Cited Papers.PDF", FileNameCleaner.cleanFileName("The Evolution of Sentiment} Analysis}A Review of Research Topics, Venues, and Top Cited Papers.PDF"));
     }
-
-    @Test
-    void failingTest() {
-        assertEquals("HEJ", "DÅ");
-    }
 }
