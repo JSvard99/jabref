@@ -36,6 +36,6 @@ class FileNameCleanerTest {
 
     @Test
     void failingTest() {
-        assertTrue(false);
+        assertEquals("HEJ", "DÅ");
     }
 }
